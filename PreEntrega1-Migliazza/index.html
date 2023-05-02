@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+  <form>
+    <input type="number" id="numero1">
+    <input type="number" id="numero2">
+    <br>
+    <button type="button" onclick="calcular('+')">+</button>
+    <button type="button" onclick="calcular('-')">-</button>
+    <button type="button" onclick="calcular('*')">* (n veces)</button>
+    <button type="button" onclick="calcular('/')">/</button>
+    <br>
+    <input type="number" id="veces" style="width: 60px" placeholder="n veces">
+  </form>
+  <h2>Resultado: <span id="resultado"></span></h2>
+  <script src="./main.js"></script>-
+    
+</body>
+</html>
